@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4D088B1A6DA1AC0070BE59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D088D1A6DA1AC0070BE59 /* Localizable.strings */; };
 		4E8567F11A69C0D400C31520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8567F01A69C0D400C31520 /* AppDelegate.swift */; };
 		4E8567F31A69C0D400C31520 /* MainViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8567F21A69C0D400C31520 /* MainViewContoller.swift */; };
 		4E8567F81A69C0D400C31520 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8567F71A69C0D400C31520 /* Images.xcassets */; };
@@ -29,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E4D088C1A6DA1AC0070BE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E4D088E1A6DA1D30070BE59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4E4D088F1A6DA1D30070BE59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4E8567EB1A69C0D400C31520 /* PhotoFellows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFellows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8567EF1A69C0D400C31520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E8567F01A69C0D400C31520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				4E8568171A69C7AD00C31520 /* PickerPhotoCell.swift */,
+				4E4D088D1A6DA1AC0070BE59 /* Localizable.strings */,
 				4E8568191A69C8CC00C31520 /* ThumbNailModel.swift */,
 			);
 			name = Models;
@@ -208,6 +213,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 4E8567E21A69C0D400C31520;
 			productRefGroup = 4E8567EC1A69C0D400C31520 /* Products */;
@@ -226,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8567FB1A69C0D400C31520 /* LaunchScreen.xib in Resources */,
+				4E4D088B1A6DA1AC0070BE59 /* Localizable.strings in Resources */,
 				4E8567F81A69C0D400C31520 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +279,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4E4D088D1A6DA1AC0070BE59 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E4D088C1A6DA1AC0070BE59 /* en */,
+				4E4D088F1A6DA1D30070BE59 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		4E8567F91A69C0D400C31520 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E8567FA1A69C0D400C31520 /* Base */,
+				4E4D088E1A6DA1D30070BE59 /* de */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -435,6 +452,7 @@
 				4E85680C1A69C0D400C31520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E85680D1A69C0D400C31520 /* Build configuration list for PBXNativeTarget "PhotoFellowsTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +461,7 @@
 				4E85680F1A69C0D400C31520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
